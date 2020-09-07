@@ -1,0 +1,2 @@
+input,output,evidence,type
+glucose(low),GUT2(up) + FAA2(up) + PFK27(down) + TDH3(down) + SPS19(up) + CAT2(up) + SIP2(up) + MDH2(up) + TES1(up) + PEX1(up) + ECI1(up) + ADR1(up) + FOX2(up) + ICL2(up) + STL1(up) + GUT1(up) + MIG2(down) + SIP4(up) + DCI1(up) + HXK1(up) + PFK26(up) + CAT8(up) + HXT4(down) + IDP3(up) + ACS1(up) + CYB2(up) + CRC1(up) + MSN4(down) + HXT2(up) + PXA1(up) + ICL1(up), microarray,expression

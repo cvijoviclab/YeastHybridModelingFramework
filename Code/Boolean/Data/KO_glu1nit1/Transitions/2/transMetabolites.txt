@@ -1,0 +1,6 @@
+Name	pres 0	pres 1	pres 2	pres 3	pres 4	pres 5	pres 6	pres 7
+GLUex	1	1	1	1	1	1	1	1
+ATP	1	1	1	1	1	1	1	1
+cAMP	0	0	0	0	0	1	1	1
+F16BP	0	1	1	1	1	1	1	1
+NH3	1	1	1	1	1	1	1	1

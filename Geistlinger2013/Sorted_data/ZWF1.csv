@@ -1,0 +1,2 @@
+input,output,evidence,type
+glucose + GCR1(ko),PGK1(down_medium) + TPI1(down_strong) + PGI1(down_strong) + GPM1(down_strong) + ZWF1(up_weak) + FBA1(down_strong), prot-act,expression

@@ -1,0 +1,4 @@
+input,output,evidence,type
+dys_mit + INO2/4(ko),RTG3(down_medium), prot-act,expression
+dys_mit,RTG3(up_medium), mRNA,expression
+dys_mit,RTG3(up_medium), prot-act,expression

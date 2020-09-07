@@ -1,0 +1,11 @@
+Name	act0	act1	act2	act3	act4	act5	act6	act7	act8	act9	act10	act11	act12
+PDS	1	1	1	1	1	1	1	1	1	0	0	0	0
+STRE	1	1	1	1	1	1	1	1	1	0	0	0	0
+RTG	0	0	0	0	0	0	0	0	0	0	0	0	1
+NCR	0	0	0	0	0	0	0	0	0	0	0	1	1
+SUC2	1	1	1	1	1	1	1	1	1	0	0	0	0
+ADH2	1	1	1	1	1	1	1	0	0	0	0	0	0
+CSRE	1	1	1	1	1	1	1	1	1	0	0	0	0
+PCK1	1	1	1	1	1	1	1	1	1	0	0	0	0
+FBP1	1	1	1	1	1	1	1	1	1	0	0	0	0
+Ribosomal	0	0	0	0	0	0	0	0	0	0	0	0	0

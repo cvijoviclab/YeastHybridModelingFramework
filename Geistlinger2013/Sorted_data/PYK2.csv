@@ -1,0 +1,8 @@
+input,output,evidence,type
+phosphate(low) + PHO4,ALD5 + CDC19 + ACS1 + NRG2 + TYE7 + ENO1 + PFK27 + HXT6 + CBF1 + ACS2 + PYK2, ChIP-chip,tfbinding
+glucose + NRG1(ko),HXK1(up_medium) + CYB2(up_medium) + HXT6(up_medium) + CRC1(up_weak) + IDH2(up_medium) + PYK2(up_weak), microarray,expression
+glucose(low),HXT6(up_strong) + PYK2(up_strong) + IDH2(up_medium) + HXK1(up_strong) + CYB2(up_strong) + CRC1(up_strong), microarray,expression
+glucose + NRG2(ko),HXT6(up_medium) + CRC1(up_medium) + IDH2(up_medium) + HXK1(up_medium) + PYK2(up_weak) + CYB2(up_medium), microarray,expression
+glucose(low) + MSN2(ko) + MSN4(ko),MDH2(down_medium) + PYK2(down_strong) + HXK1(down_strong) + GLK1(down_medium) + GUT2(down_medium), lacZ,expression
+NRG2(ko) + glucose + NRG1(ko),PYK2(up_medium) + CRC1(up_medium) + HXK1(up_medium) + IDH2(up_medium) + CYB2(up_medium) + HXT6(up_medium), microarray,expression
+Phosphorus source(low),PYK2(up), microarray,expression

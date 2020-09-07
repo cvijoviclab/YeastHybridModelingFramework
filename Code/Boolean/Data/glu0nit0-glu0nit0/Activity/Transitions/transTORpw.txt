@@ -1,0 +1,17 @@
+Var1	act0	act1	act2	act3	act4	act5
+EGO	0	0	0	0	0	0
+Tor1	1	1	1	1	1	1
+Tor2	1	1	1	1	1	1
+Kog1	1	1	1	1	1	1
+Tco89	1	1	1	1	1	1
+Lst8	1	1	1	1	1	1
+TORC1	0	0	0	0	0	0
+Sch9	0	0	0	0	0	0
+Sfp1	0	0	0	0	0	0
+Tap42	0	1	1	1	1	1
+PP2A	0	1	0	0	0	0
+Mks1	0	1	0	1	1	1
+Rgt2	1	1	1	1	1	1
+Rtg1,3	1	1	0	1	0	0
+Gln3	1	0	1	0	0	0
+Gat1	1	0	1	0	0	0

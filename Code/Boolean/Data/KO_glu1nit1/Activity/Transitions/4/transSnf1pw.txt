@@ -1,0 +1,15 @@
+Var1	act0	act1	act2	act3	act4	act5
+Tos3	1	1	1	1	1	1
+Sak1	1	1	1	1	1	1
+Elm1	1	1	1	1	1	1
+Glc7	1	1	1	1	1	1
+Reg1	1	1	1	1	1	1
+Sip2	1	1	1	1	1	1
+Sip1	1	1	1	1	1	1
+Gal83	1	1	1	1	1	1
+Snf1	1	1	1	1	1	1
+Snf4	1	1	1	1	1	1
+Cat8	1	1	1	1	1	1
+Sip4	1	1	1	1	1	1
+Adr1	1	1	1	1	1	1
+Mig1	0	0	0	0	0	0

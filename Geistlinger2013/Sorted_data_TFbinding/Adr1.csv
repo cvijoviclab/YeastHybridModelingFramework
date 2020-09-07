@@ -1,0 +1,17 @@
+input,output,evidence,type
+LEU3(oe),ADR1(up) + PDC1(up) + HAP4(up) + ACO1(up) + GID8(up) + YAT1(up) + MDH3(up) + HAP1(up), microarray,expression
+RGT1,ADR1 + SFC1, ChIP-chip,tfbinding
+glucose(low),ADR1(up_strong) + CAT8(up_strong), western_blot,expression
+MSN4,ADR1, ChIP-chip,tfbinding
+glucose(low) + GCR2(ko),ADR1(down_medium) + HXT1(up_weak) + HXT7(down_medium) + MIG1(down_weak) + HXT2(down_medium) + HAP4(down_weak) + DAL7(down_weak) + CAT8(down_medium) + ENO1(down_weak) + MDH2(up_weak) + GLK1(up_weak) + GPM1(down_weak), microarray,expression
+glucose(low) + PIP2,GLK1 + JEN1 + ICL1 + ADR1 + PDC5 + FAA4 + CIT1 + POX1, ChIP-chip,tfbinding
+glucose + MIG1(ko),GUT2(up_weak) + ADR1(up_medium) + HXK1(up_medium) + JEN1(up_weak) + REG2(up_strong) + GUT1(up_medium) + LSC2(up_weak) + HXT4(up_medium) + CRC1(up_weak) + ICL1(up_weak) + CAT8(up_medium) + MDH2(down_medium) + HXT3(up_weak) + HXT1(down_weak) + HXT2(up_weak), microarray,expression
+glucose(low),GUT2(up) + FAA2(up) + PFK27(down) + TDH3(down) + SPS19(up) + CAT2(up) + SIP2(up) + MDH2(up) + TES1(up) + PEX1(up) + ECI1(up) + ADR1(up) + FOX2(up) + ICL2(up) + STL1(up) + GUT1(up) + MIG2(down) + SIP4(up) + DCI1(up) + HXK1(up) + PFK26(up) + CAT8(up) + HXT4(down) + IDP3(up) + ACS1(up) + CYB2(up) + CRC1(up) + MSN4(down) + HXT2(up) + PXA1(up) + ICL1(up), microarray,expression
+STP2,HXK2 + ADR1, ChIP-chip,tfbinding
+ABF1,HXK2 + YAT1 + GID8 + CAT8 + PGI1 + MLS1 + ADR1 + FOX2 + FAA1 + FUM1 + HXT2 + ANT1 + IDH1 + ACS1 + JEN1 + LPD1 + FBA1, ChIP-chip,tfbinding
+MIG2(ko) + glucose + MIG1(ko),ICL1(up_medium) + REG2(up_strong) + CAT8(up_strong) + ADR1(up_strong) + CRC1(up_medium) + JEN1(up_strong) + GUT1(up_medium) + MDH2(down_medium) + HXT2(up_medium) + LSC2(up_medium) + GUT2(up_medium) + HXT1(down_strong) + HXK1(up_medium) + HXT4(up_medium) + HXT3(down_medium), microarray,expression
+oleic_acid + ADR1(ko),LSC1(down_weak) + FAA2(down_strong) + IDP3(down_strong) + PIP2(down_weak) + ANT1(down_weak) + ECI1(down_strong) + CIT3(down_medium) + TES1(down_strong) + CTA1(down_strong) + POX1(down_strong) + ADH2(down_weak) + PEX11(down_medium) + DCI1(down_strong) + PXA1(down_strong) + PXA2(down_medium) + MDH3(down_weak) + ADR1(down_strong) + GUT2(down_weak) + POT1(down_medium) + SPS19(down_strong) + FOX2(down_strong), microarray,expression
+selenite,MAE1(down_medium) + PCK1(up_medium) + FAA2(up_medium) + IDP2(up_medium) + GSM1(up_medium) + POX1(up_medium) + HXT1(down_medium) + SIP4(up_medium) + TES1(up_medium) + HXT6(up_medium) + ACO2(down_medium) + SDH3(down_medium) + ECI1(up_medium) + FAA4(up_medium) + ADR1(up_medium) + CYB2(up_strong) + ADH2(down_medium) + MLS1(down_medium) + REG2(up_medium) + GUT2(up_medium) + PXA2(up_strong) + DLD1(down_medium) + DAL7(up_medium) + CIT2(up_medium) + CTA1(up_strong) + FBP1(up_medium) + PXA1(up_medium) + CIT3(up_medium) + HXK1(up_strong) + FOX2(up_medium) + ACO1(down_strong) + HXT7(up_medium) + SPS19(up_medium) + HXT5(up_medium) + PYC1(up_medium) + JEN1(up_medium) + HXT2(down_medium) + GLK1(up_medium) + HXT4(down_medium) + CAT2(up_medium), microarray,expression
+MIG1,MDH2 + JEN1 + ICL1 + HXT3 + CRC1 + HXK1 + LSC2 + GUT1 + HXT1 + GUT2 + CAT8 + ADR1 + HXT4 + REG2 + HXT2, consensus,tfbinding
+PHO4,TES1 + PDC1 + ACS2 + ADR1, ChIP-chip,tfbinding
+FHL1,YAT1 + DLD1 + TDH3 + CIT2 + FAA4 + GLK1 + ADR1 + TPI1 + PCK1 + ACO1 + PDC1 + GPM1 + TES1 + PGI1 + GUT1 + GUT2 + ENO1 + HAP1 + MAE1 + GID8, ChIP-chip,tfbinding

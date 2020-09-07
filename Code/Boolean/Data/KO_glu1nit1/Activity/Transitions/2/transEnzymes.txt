@@ -1,0 +1,7 @@
+Var1	act0	act1	act2	act3	act4	act5	act6	act7
+PFK2	1	1	1	1	1	1	1	0
+TREH	0	0	0	0	0	0	0	1
+PK	0	0	0	0	0	0	0	1
+FBP1	1	1	1	1	1	1	1	0
+ACC	0	0	1	1	1	1	1	1
+HXK2	1	0	0	0	0	0	0	0

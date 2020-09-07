@@ -1,0 +1,8 @@
+input,output,evidence,type
+GCN4,ACO2 + PYC2 + SIP4, ChIP-chip,tfbinding
+NaCl + CIN5,GID8 + HXT7 + PDC1 + DCI1 + HXK2 + STL1 + PEX25 + HXK1 + HXT1 + ENO1 + HXT6 + HXT4 + ACO1 + MDH2 + FBA1 + DLD1 + HXT2 + PFK27 + MAE1 + PYC2 + TDH2, ChIP-chip,tfbinding
+NaCl,HXT2(down) + LSC1(up) + GLK1(up) + ACO2(down) + SDH4(up) + HXK1(up) + MDH2(up) + IDH2(up) + DLD1(up) + HAP1(up) + LPD1(up) + CIT1(up) + LSC2(up) + IDH1(up) + FAA4(down) + PYC1(up) + PDC5(down) + FAA1(up) + PEX25(up) + HXT1(up) + GUT2(up) + MAE1(down) + MDH1(up) + KGD2(up) + KGD1(up) + CIT2(up) + ADH2(down) + HXT6(up) + PYC2(down) + SDH3(up) + REG2(down) + HXT5(up), microarray,expression
+GCN4,PYC2 + PCK1 + IDH1 + GID8 + ACO2, ChIP-chip,tfbinding
+GCN2(ko) + aa_starvation,PYC2(down_medium) + ICL1(down_medium) + ACO2(down_medium) + YAT2(down_strong), microarray,expression
+aa_starvation,PYC2(up_medium) + ICL1(up_strong) + CRC1(up_strong) + JEN1(up_medium) + ECI1(up_medium) + PXA2(up_medium) + CAT2(up_medium) + GID8(up_medium) + HXT4(down_medium) + DAL7(up_medium) + YAT2(up_strong) + PCK1(up_medium) + ADH2(up_medium) + SIP4(up_strong) + PIP2(up_medium) + ANT1(up_medium) + IDP2(up_medium) + HXT2(down_medium) + CTA1(up_medium) + ACO2(up_medium) + HAP4(up_medium) + MLS1(up_medium) + FBP1(up_medium), microarray,expression
+GCN4(ko) + aa_starvation,YAT2(down_strong) + ICL1(down_medium) + PYC2(down_medium) + ACO2(down_medium), microarray,expression

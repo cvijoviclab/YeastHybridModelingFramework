@@ -1,0 +1,30 @@
+input,output,evidence,type
+phosphate(low) + PHO4,ALD5 + CDC19 + ACS1 + NRG2 + TYE7 + ENO1 + PFK27 + HXT6 + CBF1 + ACS2 + PYK2, ChIP-chip,tfbinding
+GCR1(ko) + glycerol + GCR2(ko) + lactate,ENO1(down_strong) + ENO2(down_strong) + PFK2(down_medium) + TPI1(down_strong) + FBA1(down_strong) + PGK1(down_strong) + GPM1(down_strong) + TDH1(down_medium) + CDC19(down_strong) + TDH3(down_strong) + HXK1(down_medium) + TDH2(down_strong) + PFK1(down_weak) + PGI1(down_strong)," kPCR ,  northern_blot ,  prot-act",expression
+RAP1,FBA1 + GPM1 + HXT5 + ACS1 + PGI1 + SIP4 + TDH3 + HAP5 + PFK27 + PDC1 + CRC1 + FAA1, ChIP-chip,tfbinding
+glucose,FBA1(up_weak) + PFK2(up_medium) + PDC1(up_weak) + ENO1(up_medium) + ENO2(up_medium) + ADH1(up_weak) + CDC19(up_medium) + TPI1(up_weak) + LPD1(down_medium) + PGK1(up_weak) + PGM1(up_medium) + PFK1(up_weak)," lacZ ,  northern_blot",expression
+NaCl + CIN5,GID8 + HXT7 + PDC1 + DCI1 + HXK2 + STL1 + PEX25 + HXK1 + HXT1 + ENO1 + HXT6 + HXT4 + ACO1 + MDH2 + FBA1 + DLD1 + HXT2 + PFK27 + MAE1 + PYC2 + TDH2, ChIP-chip,tfbinding
+ethanol + RDS2(ko),GID8(up) + FBP1(down_strong) + HAP4(down_strong) + KGD2(down) + SFC1(down) + LSC2(down) + PCK1(down_strong) + PFK27(up), RT-PCR,expression
+HU,GLK1(up_medium) + PFK26(up_medium) + SPS19(up_medium) + HXT1(up_medium) + SIP4(up_medium) + CTA1(down_weak) + HAP4(up_medium) + HXT3(up_medium) + IDH2(up_medium), microarray,expression
+glucose(low),GUT2(up) + FAA2(up) + PFK27(down) + TDH3(down) + SPS19(up) + CAT2(up) + SIP2(up) + MDH2(up) + TES1(up) + PEX1(up) + ECI1(up) + ADR1(up) + FOX2(up) + ICL2(up) + STL1(up) + GUT1(up) + MIG2(down) + SIP4(up) + DCI1(up) + HXK1(up) + PFK26(up) + CAT8(up) + HXT4(down) + IDP3(up) + ACS1(up) + CYB2(up) + CRC1(up) + MSN4(down) + HXT2(up) + PXA1(up) + ICL1(up), microarray,expression
+RAP1,HAP1 + OAF1 + TDH3 + CRC1 + TYE7 + HSF1 + RAP1 + PFK27 + ENO1 + ENO2 + ADH1 + GCN4 + HXT5 + GPM2 + SIP4 + CAT5 + ADH3 + CDC19 + PGI1 + PDC1 + HAP3 + GPM1 + SNF4 + TDH2 + PEX6, ChIP-chip,tfbinding
+RDS2(ko) + ethanol,HAP4(down) + FBP1(down) + GID8(up) + PCK1(down) + PFK27(up) + LSC2(down), review,expression
+RDS2,HAP4 + PCK1 + OPI1 + SIP4 + GID8 + FBP1 + PFK27 + LSC2, review,tfbinding
+GCR2(ko) + lactate + glycerol,HXK1(down_weak) + PFK2(down_weak) + ENO1(down_strong) + TDH3(down_strong) + CDC19(down_strong) + TPI1(down_strong) + TDH1(down_medium) + PGI1(down_strong) + TDH2(down_strong) + FBA1(down_strong) + GPM1(down_strong) + ENO2(down_strong) + PGK1(down_strong)," prot-act ,  kPCR ,  northern_blot",expression
+lactate + glycerol + GCR1(ko),HXK1(down_medium) + CDC19(down_strong) + PGK1(down_strong) + FBA1(down_strong) + GPM1(down_strong) + TDH1(down_medium) + ENO1(down_strong) + PFK2(down_weak) + TDH3(down_strong) + PGI1(down_strong) + TDH2(down_strong) + TPI1(down_strong) + PFK1(down_weak) + ENO2(down_strong)," northern_blot ,  prot-act ,  kPCR",expression
+RAP1 + glucose,HXT1 + FBA1 + ENO1 + SIP4 + HAP1 + YAT1 + PGK1 + GUT1 + TDH3 + GLK1 + MAE1 + PDC1 + YJL045W + PGI1 + OAF1 + HXT5 + FAA1 + DLD1 + TPI1 + GID8 + PFK27 + CRC1 + HAP5 + GPM1 + IDP2, ChIP-chip,tfbinding
+CBF1,IDH1 + IDP2 + PFK27 + LPD1 + SFC1 + TDH2 + ACS1, ChIP-chip,tfbinding
+RSF2(ko) + glycerol,PCK1(down_medium) + CIT3(down_medium) + PFK27(up_weak) + FBP1(down_weak) + ACH1(down_strong) + SFC1(down_medium) + HAP4(down_medium) + HXT1(up_weak) + SDH3(down_weak), microarray,expression
+RSF1(ko) + glycerol,PCK1(down_medium) + SFC1(down_medium) + FBP1(down_medium) + PFK27(up_strong) + ACH1(down_strong) + HXT1(up_medium) + HXT2(up_weak), microarray,expression
+sugar,PDC1(up_strong) + PFK27(up) + CDC19(up_medium) + PFK1(up_medium) + PFK26(down), review,expression
+RAP1,PDC1 + PFK27 + SIP4 + HXT5, ChIP-chip,tfbinding
+PHO4,PFK27 + RDS2, ChIP-chip,tfbinding
+ethanol + RDS2,PFK27 + YAT1 + PDC1 + CIT1 + OPI1 + SFC1 + MAE1 + VID24 + MLS1 + SDH4 + PCK1 + IDP2 + GID8 + ACS2 + KGD2 + FBP1 + LSC2 + HAP4 + SIP4, ChIP-chip,tfbinding
+glucose,PFK27(up_strong), Expression evidence,expression
+NaCl + SKN7,PGK1 + HXT6 + HAP4 + PCK1 + TDH3 + CIT1 + POX1 + MDH2 + GID8 + HXK1 + SDH1 + ACO1 + STL1 + PFK27, ChIP-chip,tfbinding
+lactate,PGK1(down_weak) + LPD1(up_medium) + PGM1(down_medium) + ADH1(down_weak) + PDC1(down_weak) + FBA1(down_weak) + ENO1(down_medium) + CDC19(down_medium) + PFK1(down_weak) + ENO2(down_medium) + PFK2(down_medium) + TPI1(down_weak)," lacZ ,  northern_blot",expression
+HXK2(ko) + glucose + HAP4(oe),SDH4(up_strong) + IDH1(up_medium) + HXT1(down_strong) + HXK2(down_strong) + SDH1(up_medium) + ACS1(up_strong) + MDH1(up_medium) + MDH2(up_strong) + CIT1(up_medium) + TDH1(down_medium) + IDP2(up_strong) + CAT2(up_strong) + CIT3(up_strong) + PFK1(down_medium) + ALD4(up_strong) + SDH2(up_strong) + HXK1(up_medium) + FBP1(up_strong) + PDC5(down_medium) + GLK1(up_medium) + HXT7(up_strong) + ADH2(up_strong) + MDH3(up_medium) + ENO1(down_strong) + MLS1(up_strong) + FUM1(up_strong) + HXT4(up_medium) + HXT5(up_strong) + SDH3(up_medium) + KGD2(up_medium) + PFK2(down_medium) + LSC2(up_medium) + HXT6(up_strong) + ICL1(up_strong) + PCK1(up_strong), microarray,expression
+SKO1 + NaCl,STL1 + TDH2 + HXT1 + GID8 + HXK1 + ADH2 + FAA1 + HXT5 + HXT3 + MAE1 + HXT2 + PGK1 + ENO1 + PYC1 + CIT1 + HXT7 + IDH1 + PFK27 + HXT6, ChIP-chip,tfbinding
+GCR2(ko) + lactate + glycerol,TDH2(down_medium) + GPM1(down_strong) + FBA1(down_strong) + GUT2(down_medium) + IDH1(down_medium) + PGI1(down_strong) + TDH3(down_medium) + ENO1(down_strong) + TDH1(down_strong) + ENO2(down_strong) + IDH2(down_medium) + TPI1(down_strong) + PFK2(down_medium) + CDC19(down_strong) + PGK1(down_strong), microarray,expression
+RAP1,TDH2 + MDH2 + PFK27 + HXK1 + YJL045W + FBA1 + ACS1 + HXT5 + HAP5 + PEX25 + HXT6 + SIP4 + CRC1 + PDC1 + YAT1 + TPI1 + GUT1 + GPM1 + MAE1 + TDH3, ChIP-chip,tfbinding
+aa_starvation,TPI1(down_medium) + HXK2(up_medium) + ENO2(down_medium) + ADH1(down_medium) + PFK2(up_medium) + FBA1(down_medium) + TDH3(down_medium) + MAE1(up_medium) + ADH5(up_medium) + PDC1(down_medium)," 2d-gel ,  MS",expression

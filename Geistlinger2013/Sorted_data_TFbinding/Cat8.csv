@@ -1,0 +1,39 @@
+input,output,evidence,type
+glucose(low),ADR1(up_strong) + CAT8(up_strong), western_blot,expression
+glucose(low) + GCR2(ko),ADR1(down_medium) + HXT1(up_weak) + HXT7(down_medium) + MIG1(down_weak) + HXT2(down_medium) + HAP4(down_weak) + DAL7(down_weak) + CAT8(down_medium) + ENO1(down_weak) + MDH2(up_weak) + GLK1(up_weak) + GPM1(down_weak), microarray,expression
+MIG1(ko) + glucose,CAT8(up_strong), lacZ,expression
+ethanol + CAT5(ko),CAT8(down_strong), lacZ,expression
+glucose + MIG2,CAT8(down), author-statement,expression
+ethanol,CAT8(up_strong), northern_blot,expression
+glucose(low),CAT8(up), northern_blot,expression
+glucose,CAT8(down_strong) + FBP1(down_strong), lacZ,expression
+ethanol + SNF4(ko),CAT8(down_strong) + FBP1(down_strong), lacZ,expression
+cAMP + ethanol,CAT8(down_strong) + GLK1(down_medium) + SIP4(down_strong), lacZ,expression
+ethanol,CAT8(up_strong), lacZ,expression
+ABF1 + HAP2/3/4/5 + MIG1,CAT8, consensus,tfbinding
+glucose,CAT8(down_strong) + FBP1(down_strong) + SIP4(down_strong), lacZ,expression
+glucose,CAT8(down_strong), lacZ,expression
+MIG1 + glucose,CAT8(down_strong), author-statement,expression
+glucose,CAT8(down_strong) + FBP1(down_strong) + PCK1(down_strong)," lacZ ,  western_blot ,  northern_blot",expression
+ethanol,CAT8(up_strong) + FBP1(up_strong), lacZ,expression
+REB1,CAT8 + SDH1 + HAP2, ChIP-chip,tfbinding
+glucose,CAT8(down_strong), northern_blot,expression
+arsenic + ARR1(ko),CIT1(up_medium) + GUT2(up_medium) + YAT1(up_medium) + IDH1(up_medium) + FAA2(up_strong) + ACO2(down_medium) + PDC6(up_strong) + CAT8(up_medium) + DLD1(up_medium) + HXT2(up_strong) + POT1(up_strong) + CIT2(up_strong) + FOX2(up_medium) + HXK1(up_medium) + HXT4(up_medium) + HXT6(up_strong) + HXT1(up_medium) + SDH4(up_medium) + HXT3(up_medium) + PCK1(down_medium) + MIG1(up_medium) + REG2(up_medium) + HXT5(up_strong) + HAP4(up_medium) + ECI1(up_medium) + JEN1(up_medium) + GLK1(up_strong) + POX1(up_medium) + ACS1(up_medium) + HXT7(up_strong), microarray,expression
+glycerol + ethanol,FBP1(up_strong) + CAT8(up_strong) + SIP4(up_strong), lacZ,expression
+ethanol,FBP1(up_strong) + CAT8(up_strong) + PCK1(up_strong)," northern_blot ,  western_blot ,  lacZ",expression
+glucose(low),FBP1(down_strong) + CAT8(down_strong) + SIP4(down_strong), lacZ,expression
+SNF1(ko) + ethanol,FBP1(down_strong) + CAT8(down_strong), lacZ,expression
+glucose + MIG1(ko),GUT2(up_weak) + ADR1(up_medium) + HXK1(up_medium) + JEN1(up_weak) + REG2(up_strong) + GUT1(up_medium) + LSC2(up_weak) + HXT4(up_medium) + CRC1(up_weak) + ICL1(up_weak) + CAT8(up_medium) + MDH2(down_medium) + HXT3(up_weak) + HXT1(down_weak) + HXT2(up_weak), microarray,expression
+glucose(low),GUT2(up) + FAA2(up) + PFK27(down) + TDH3(down) + SPS19(up) + CAT2(up) + SIP2(up) + MDH2(up) + TES1(up) + PEX1(up) + ECI1(up) + ADR1(up) + FOX2(up) + ICL2(up) + STL1(up) + GUT1(up) + MIG2(down) + SIP4(up) + DCI1(up) + HXK1(up) + PFK26(up) + CAT8(up) + HXT4(down) + IDP3(up) + ACS1(up) + CYB2(up) + CRC1(up) + MSN4(down) + HXT2(up) + PXA1(up) + ICL1(up), microarray,expression
+ABF1,HXK2 + YAT1 + GID8 + CAT8 + PGI1 + MLS1 + ADR1 + FOX2 + FAA1 + FUM1 + HXT2 + ANT1 + IDH1 + ACS1 + JEN1 + LPD1 + FBA1, ChIP-chip,tfbinding
+rapamycin,HXT1(down_medium) + PDC6(up_strong) + HAP5(up_medium) + CTA1(up_medium) + SIP4(up_strong) + ICL1(up_medium) + PYC1(up_medium) + CIT3(up_strong) + HXT5(up_medium) + CAT8(up_medium) + IDP2(up_medium) + ECI1(up_medium) + FBP1(up_medium) + DAL7(up_strong) + PCK1(up_medium) + CRC1(up_strong) + GSM1(up_medium) + JEN1(up_medium) + ACS1(up_medium) + PIP2(up_medium) + CYB2(up_medium) + MLS1(up_strong) + YJL045W(up_medium) + POX1(up_medium) + SDH3(up_medium) + CAT2(up_strong) + CIT2(up_medium) + IDP3(up_medium) + PXA2(up_medium) + POT1(up_medium) + YAT1(up_strong) + YAT2(up_strong) + CIT1(up_medium) + MDH2(up_medium) + PEX11(up_medium) + GID8(up_medium), microarray,expression
+glucose + MIG1,HXT3(down) + PCK1(down) + HXT2(down) + CAT8(down) + HXK1(down) + GLK1(down) + FBP1(down) + HXT4(down) + SNF3(down) + HAP4(down) + PDC1(down) + MLS1(down) + ICL1(down), review,expression
+MIG2(ko) + glucose + MIG1(ko),ICL1(up_medium) + REG2(up_strong) + CAT8(up_strong) + ADR1(up_strong) + CRC1(up_medium) + JEN1(up_strong) + GUT1(up_medium) + MDH2(down_medium) + HXT2(up_medium) + LSC2(up_medium) + GUT2(up_medium) + HXT1(down_strong) + HXK1(up_medium) + HXT4(up_medium) + HXT3(down_medium), microarray,expression
+AFT1,KGD1 + DLD1 + MLS1 + HAP2 + CAT8, ChIP-chip,tfbinding
+MIG1,MDH2 + JEN1 + ICL1 + HXT3 + CRC1 + HXK1 + LSC2 + GUT1 + HXT1 + GUT2 + CAT8 + ADR1 + HXT4 + REG2 + HXT2, consensus,tfbinding
+MIG1 + glucose,MLS1 + SNF3 + HXT4 + MIG1 + HAP4 + HXT2 + ICL1 + HXT3 + HXK1 + PDC1 + FBP1 + CAT8 + GLK1 + PCK1, review,tfbinding
+UME6,PGI1 + CTA1 + SFC1 + GSM1 + FOX2 + CRC1 + CAT2 + CAT8 + SIP4 + YJL045W + ACS1, ChIP-chip,tfbinding
+REB1,SDH1 + CAT8, ChIP-chip,tfbinding
+glucose(low) + glycerol + ethanol,SIP4(down_strong) + CAT8(down_strong) + FBP1(down_strong), lacZ,expression
+glucose,SIP4(down_strong) + GLK1(down_strong) + CAT8(down_strong), lacZ,expression
+ethanol,SIP4(up_strong) + GLK1(up_strong) + CAT8(up_strong), lacZ,expression

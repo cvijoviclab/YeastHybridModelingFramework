@@ -1,0 +1,11 @@
+Name	activity
+PDS	1
+STRE	1
+RTG	0
+NCR	0
+SUC2	1
+ADH2	1
+CSRE	1
+PCK1	1
+FBP1	1
+Ribosomal	0

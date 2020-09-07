@@ -1,0 +1,38 @@
+input,output,evidence,type
+glucose,ACO1(down_strong) + HXK2(down_strong) + SIP4(down_strong) + SDH1(down_strong) + SDH4(down_strong), RT-PCR,expression
+REB1,CAT8 + SDH1 + HAP2, ChIP-chip,tfbinding
+NaCl,CTA1(up_medium) + CAT2(up_medium) + CIT1(up_medium) + PYC1(up_medium) + HXT5(up_strong) + IDH1(up_medium) + STL1(up_strong) + HXT1(up_strong) + GUT2(up_strong) + SDH1(up_medium) + ACO1(up_medium) + MAE1(down_strong) + GLK1(up_strong) + ACO2(down_strong) + YJL045W(up_medium) + REG2(up_medium) + GUT1(down_medium) + IDH2(up_medium) + HXK1(up_medium) + HXT2(down_medium) + FAA4(down_medium) + CYB2(up_medium) + PDC6(up_strong) + POX1(up_medium) + CRC1(up_medium) + SIP4(up_medium), microarray,expression
+glucose + GCR1(ko),ENO1(down_strong) + ENO2(down_strong) + TDH1(up_weak) + SDH4(up_strong) + SDH1(up_strong) + ACO1(up_strong) + GPM1(down_strong), RT-PCR,expression
+glucose + GCR2(ko),ENO2(down_strong) + SDH1(up_strong) + ENO1(down_strong) + HAP5(up_medium) + SDH4(up_strong) + SIP4(up_medium) + GPM1(down_strong) + ACO1(up_strong), RT-PCR,expression
+OAF1,FAA2 + HAP2 + SDH1 + CTA1 + IDP2 + FUM1, ChIP-chip,tfbinding
+GCR1(ko) + glucose,GLK1(up_strong) + HXT1(down_medium) + ADH2(down_medium) + CIT1(up_strong) + GUT2(up_medium) + NDI1(up_medium) + PCK1(up_medium) + CIT2(up_strong) + HXT2(down_strong) + PGK1(down_medium) + SDH3(up_medium) + CIT3(up_medium) + ENO2(down_strong) + SDH1(up_medium) + HXK1(up_medium) + CDC19(down_strong) + GPM1(down_strong) + FUM1(up_medium) + LPD1(up_medium) + PFK1(down_medium) + IDP2(up_medium) + CYB2(up_medium) + PYC1(up_medium) + FBP1(up_medium) + TPI1(down_medium) + LSC2(up_medium) + DLD3(up_medium) + ENO1(down_strong) + TDH2(down_strong) + FBA1(down_medium) + HXT3(down_medium) + ADH1(down_strong) + MDH1(up_medium) + ACO1(up_medium) + TDH1(up_strong) + SDH2(up_medium) + SDH4(up_medium), microarray,expression
+glucose + ARR1(ko),HXT4(down_medium) + HXT3(down_medium) + FOX2(up_medium) + CTA1(up_medium) + HAP4(down_medium) + SDH1(down_medium) + PXA1(up_medium), microarray,expression
+glucose + HXK2(ko),ICL1(up_strong) + HXT6(up_strong) + MAE1(down_medium) + SDH3(up_medium) + HXT1(down_strong) + HXT5(up_medium) + MDH2(up_medium) + PCK1(up_medium) + ALD4(up_medium) + HXK1(up_strong) + HXK2(down_strong) + MDH1(up_medium) + PDC5(down_medium) + IDP2(up_strong) + CIT1(up_medium) + HXT7(up_strong) + CIT3(up_medium) + MLS1(up_strong) + KGD2(up_medium) + SDH4(up_strong) + MDH3(up_medium) + FBP1(up_strong) + SDH2(up_medium) + HXT4(up_strong) + LSC2(up_medium) + SDH1(up_medium), microarray,expression
+dys_mit + raffinose,KGD1(down) + CIT2(up) + MDH1(down) + FUM1(down) + SDH1(down), northern_blot,expression
+HAP4,KGD2 + IDP3 + SDH1, ChIP-chip,tfbinding
+glycerol + glucose + lactate,KGD2(down_strong) + CIT1(down_medium) + IDP2(down_strong) + ACO1(down_strong) + FUM1(down_strong) + GUT2(down_strong) + MDH1(down_strong) + GUT1(down_strong) + KGD1(down_strong) + IDP1(down_medium) + PDC1(up_medium) + SDH4(down_strong) + YJL045W(down_medium) + SDH2(down_strong) + LSC1(down_strong) + LPD1(down_weak) + SDH1(down_strong) + CIT3(down_weak) + SDH3(down_strong) + CYB2(down_strong) + LSC2(down_strong) + IDH2(down_strong) + JEN1(down_strong) + ACO2(up_weak), microarray,expression
+glucose + HAP4(oe),MDH2(up_medium) + HXT4(down_medium) + TDH1(down_medium) + SDH3(up_medium) + SDH2(up_medium) + HXK1(down_strong) + MDH3(up_medium) + KGD2(up_medium) + SDH4(up_medium) + MDH1(up_medium) + SDH1(up_medium), microarray,expression
+dys_mit,PEX11(up_medium) + SDH2(down_weak) + ACS1(up_medium) + JEN1(up_medium) + ADH2(up_medium) + PYC1(up_medium) + SDH1(down_medium) + MDH1(down_medium) + HAP4(down_medium) + DLD1(up_medium) + SPS19(up_medium) + CIT3(up_strong) + CIT2(up_strong) + PXA1(up_medium) + CRC1(up_medium), microarray,expression
+NaCl + SKN7,PGK1 + HXT6 + HAP4 + PCK1 + TDH3 + CIT1 + POX1 + MDH2 + GID8 + HXK1 + SDH1 + ACO1 + STL1 + PFK27, ChIP-chip,tfbinding
+dys_mit,PYC1(up_medium) + CIT3(up_strong) + DLD1(up_medium) + CRC1(up_medium) + MDH1(down_medium) + PEX11(up_medium) + ACS1(up_medium) + SDH2(down_weak) + SPS19(up_medium) + JEN1(up_medium) + SDH1(down_medium) + ADH2(up_medium) + CIT2(up_strong) + HAP4(down_medium) + PXA1(up_medium), microarray,expression
+HAP2/3/4/5,RPM2(up) + SDH1(up) + CYT1(up) + PTP1(up), lacZ,expression
+ethanol,SDH1(up_strong) + YJL045W(up_weak) + SDH2(up_strong) + CYB2(up_strong) + SDH3(up_medium) + SDH4(up_strong), microarray,expression
+sorbitol,SDH1(up)," northern_blot ,  western_blot ,  emsa ,  prot-act",expression
+glucose,SDH1(down)," western_blot ,  emsa ,  prot-act ,  northern_blot",expression
+HAP2/3/4/5(ko) + glycerol,SDH1(down_strong) + SDH2(down_strong)," northern_blot ,  lacZ",expression
+REB1,SDH1 + CAT8, ChIP-chip,tfbinding
+glycerol,SDH2(up_strong) + SDH1(up_strong)," northern_blot ,  lacZ",expression
+HAP2/3/4/5,SDH2 + SDH1, consensus,tfbinding
+glycerol,SDH2(up_medium) + CYB2(up_strong) + SDH1(up_strong) + SDH3(up_weak), microarray,expression
+glucose,SDH2(down_strong) + SDH3(down) + SDH4(down) + SDH1(down_strong), review,expression
+glucose,SDH2(down_strong) + SDH1(down_strong)," northern_blot ,  lacZ",expression
+glucose,SDH3(down_medium) + SDH1(down_medium), lacZ,expression
+RSF1(ko) + glycerol,SDH3(down_medium) + YJL045W(up_strong) + SDH1(down_weak), microarray,expression
+galactose,SDH3(up_medium) + SDH1(up_medium), lacZ,expression
+NO,SDH3(down_strong) + ACH1(down_medium) + SDH2(down_strong) + CYB2(down_strong) + ACO1(down_medium) + SDH4(down_strong) + SDH1(down_strong) + CTA1(down_strong), microarray,expression
+HAP2/3/4/5(ko) + galactose,SDH3(down_strong) + SDH4(down_strong) + SDH1(down_strong)," northern_blot ,  lacZ",expression
+HXK2(ko) + glucose + HAP4(oe),SDH4(up_strong) + IDH1(up_medium) + HXT1(down_strong) + HXK2(down_strong) + SDH1(up_medium) + ACS1(up_strong) + MDH1(up_medium) + MDH2(up_strong) + CIT1(up_medium) + TDH1(down_medium) + IDP2(up_strong) + CAT2(up_strong) + CIT3(up_strong) + PFK1(down_medium) + ALD4(up_strong) + SDH2(up_strong) + HXK1(up_medium) + FBP1(up_strong) + PDC5(down_medium) + GLK1(up_medium) + HXT7(up_strong) + ADH2(up_strong) + MDH3(up_medium) + ENO1(down_strong) + MLS1(up_strong) + FUM1(up_strong) + HXT4(up_medium) + HXT5(up_strong) + SDH3(up_medium) + KGD2(up_medium) + PFK2(down_medium) + LSC2(up_medium) + HXT6(up_strong) + ICL1(up_strong) + PCK1(up_strong), microarray,expression
+galactose + HAP2/3/4/5,SDH4(up) + SDH2(up_medium) + SDH3(up_medium) + SDH1(up_medium), review,expression
+lactate + glycerol,SIP4(up_strong) + SDH4(up_strong) + SDH1(up_strong) + HXK2(up_strong) + ACO1(up_strong), RT-PCR,expression
+glucose,YJL045W(down_weak) + SDH1(down_strong), lacZ,expression
+galactose,YJL045W(up_weak) + SDH1(up_strong), lacZ,expression

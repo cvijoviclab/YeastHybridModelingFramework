@@ -1,0 +1,11 @@
+Name	pres 0	pres 1	pres 2	pres 3	pres 4	pres 5	pres 6	pres 7
+PDS	0	0	0	0	0	0	0	1
+STRE	0	0	0	0	0	0	0	1
+RTG	0	0	0	0	0	0	0	0
+NCR	0	0	0	0	0	0	0	0
+SUC2	0	0	0	1	1	1	1	1
+ADH2	0	0	0	0	0	1	1	1
+CSRE	0	0	0	1	1	1	1	1
+PCK1	0	0	0	1	1	1	1	1
+FBP1	0	0	0	1	1	1	1	1
+Ribosomal	1	1	1	1	0	0	0	0
