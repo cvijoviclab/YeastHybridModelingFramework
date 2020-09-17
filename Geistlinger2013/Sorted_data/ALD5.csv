@@ -1,2 +1,0 @@
-input,output,evidence,type
-phosphate(low) + PHO4,ALD5 + CDC19 + ACS1 + NRG2 + TYE7 + ENO1 + PFK27 + HXT6 + CBF1 + ACS2 + PYK2, ChIP-chip,tfbinding

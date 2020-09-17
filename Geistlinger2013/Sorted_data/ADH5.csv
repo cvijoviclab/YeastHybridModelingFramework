@@ -1,2 +1,0 @@
-input,output,evidence,type
-aa_starvation,TPI1(down_medium) + HXK2(up_medium) + ENO2(down_medium) + ADH1(down_medium) + PFK2(up_medium) + FBA1(down_medium) + TDH3(down_medium) + MAE1(up_medium) + ADH5(up_medium) + PDC1(down_medium)," 2d-gel ,  MS",expression

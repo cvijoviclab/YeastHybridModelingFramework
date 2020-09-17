@@ -54,7 +54,7 @@ TPINo1	Glycolysis	0.000431771437088927	0.00432368057458583
 TPI_REVNo1	Glycolysis	0.000431771437088927	0.00432368057458583
 ALD2No1	Phenylalanine, tyrosine, and tryptophan biosynthesis (aromatic amino acids)	0	0.00188961441866963
 ALD2No3	Phenylalanine, tyrosine, and tryptophan biosynthesis (aromatic amino acids)	0	0.00105603398677576
-COX1No5	Oxidative Phosphorylation	0	0.00391965002719624
+COX1No5	Oxidative Phosphorylation	0	0.00359528777479607
 DARNo1	Anaerobic excretion	0	0.0016869841869002
 ENONo2	Glycolysis	0	0.00391964971055859
 ENONo3	Glycolysis	0	0.00391964971108348

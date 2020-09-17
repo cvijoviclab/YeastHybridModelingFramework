@@ -1,6 +1,0 @@
-input,output,evidence,type
-ethanol,ACO1(up) + ACO2(down) + ADH2(down) + MDH1(up) + MLS1(up) + ACS1(down) + YAT1(down) + CIT2(up_medium) + ACS2(up) + ADH3(up) + ICL1(up) + SFC1(up) + CAT2(up) + PDC1(down) + ADH1(down) + CIT1(up_medium) + ACH1(up) + MDH2(up), northern_blot,expression
-phosphate(low) + PHO4,ALD5 + CDC19 + ACS1 + NRG2 + TYE7 + ENO1 + PFK27 + HXT6 + CBF1 + ACS2 + PYK2, ChIP-chip,tfbinding
-ethanol + RDS2,PFK27 + YAT1 + PDC1 + CIT1 + OPI1 + SFC1 + MAE1 + VID24 + MLS1 + SDH4 + PCK1 + IDP2 + GID8 + ACS2 + KGD2 + FBP1 + LSC2 + HAP4 + SIP4, ChIP-chip,tfbinding
-acetate,SFC1(down) + ACH1(up) + ADH1(down) + CIT1(up_medium) + YAT1(up) + MDH2(up) + ACS1(up) + ACO2(down) + ADH2(up) + MLS1(up) + ACO1(up) + PDC1(down) + CAT2(up) + ACS2(down) + CIT2(up_medium) + ICL1(up), northern_blot,expression
-PHO4,TES1 + PDC1 + ACS2 + ADR1, ChIP-chip,tfbinding

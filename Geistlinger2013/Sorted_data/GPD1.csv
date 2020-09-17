@@ -1,4 +1,0 @@
-input,output,evidence,type
-cAMP + glucose(low),GPD1(down_strong) + KGD2(down_medium) + ALD6(down_medium) + ADH2(down_strong) + ICL1(down_strong), 2d-gel,expression
-osmotic_shock,HXK2(down_medium) + ALD6(down_medium) + DAK1(up_medium) + ENO2(down_medium) + PDC1(down_medium) + GPD1(up_medium) + HOR2(up_medium) + FBA1(down_medium) + ENO1(up_medium), 2d-gel,expression
-MSN4(ko) + glucose(low) + MSN2(ko),ICL1(up_medium) + ADH2(up_medium) + ALD6(up_medium) + GPD1(down_weak) + KGD2(up_weak), 2d-gel,expression

@@ -1,6 +1,0 @@
-input,output,evidence,type
-cAMP + glucose(low),ALD3(down_strong) + HSP104(down_medium) + SSA4(down_weak) + TPS1(down_strong) + SOD2(down_strong) + TKL2(down_strong) + ARA1(down_medium) + HXK1(down_strong) + SSA3(down_strong) + HOR2(down_strong) + PGM2(down_strong) + GLK1(down_medium) + GDH3(down_strong), 2d-gel,expression
-MSN4 + glucose(low) + MSN2,GDH3(down_medium) + TKL2(down_strong) + GLK1(down_medium) + ARA1(down_medium) + SSA3(down_strong) + HXK1(down_strong) + HSP104(down_medium) + HOR2(down_medium) + SSA4(down_medium) + PGM2(down_medium) + SOD2(down_medium) + TPS1(down_strong) + ALD3(down_strong), 2d-gel,expression
-MSN2(ko) + heat_shock + MSN4(ko),HXK1(down_strong) + MDH1(down_medium) + TES1(down_strong) + PGM2(down_strong) + GLK1(down_medium) + CTT1(down_strong), 2d-gel,expression
-cAMP + heat_shock,HXK1(down_strong) + CTT1(down_strong) + MDH1(down_medium) + PGM2(down_strong) + GLK1(down_medium) + TES1(down_strong), 2d-gel,expression
-heat_shock,MDH1(up_weak) + CTT1(up_strong) + TES1(up) + HXK1(up_strong) + PGM2(up_strong) + GLK1(up_medium), 2d-gel,expression

@@ -1,4 +1,0 @@
-input,output,evidence,type
-aa_starvation,CIT2(up) + JEN1(up) + IDH1(up) + ACO1(up) + ICL1(up) + IDP1(up) + CIT1(up) + CIT3(up) + ACO2(up) + IDH2(up) + PIP2(up) + CRC1(up), microarray,expression
-GCN4(ko) + aa_starvation,JEN1(down) + CIT3(up) + IDH1(up) + PIP2(down) + CRC1(down) + ACO2(down) + CIT1(down) + IDP1(down) + ICL1(down) + CIT2(down) + ACO1(up), microarray,expression
-glycerol + glucose + lactate,KGD2(down_strong) + CIT1(down_medium) + IDP2(down_strong) + ACO1(down_strong) + FUM1(down_strong) + GUT2(down_strong) + MDH1(down_strong) + GUT1(down_strong) + KGD1(down_strong) + IDP1(down_medium) + PDC1(up_medium) + SDH4(down_strong) + YJL045W(down_medium) + SDH2(down_strong) + LSC1(down_strong) + LPD1(down_weak) + SDH1(down_strong) + CIT3(down_weak) + SDH3(down_strong) + CYB2(down_strong) + LSC2(down_strong) + IDH2(down_strong) + JEN1(down_strong) + ACO2(up_weak), microarray,expression

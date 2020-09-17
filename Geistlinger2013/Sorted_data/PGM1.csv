@@ -1,6 +1,0 @@
-input,output,evidence,type
-GCR1(ko) + glucose,ENO1(down_strong) + TDH1(down_strong) + PGK1(down_strong) + PGM1(down_strong) + TPI1(down_strong) + TDH2(down_strong) + TDH3(down_strong) + CDC19(down_strong) + ENO2(down_strong), northern_blot,expression
-glucose + GCR1(ko) + TYE7(oe),ENO2(up_weak) + TPI1(up_weak) + PGK1(up_medium) + TDH1(up_weak) + PGM1(up_strong) + TDH3(up_weak) + TDH2(up_weak) + CDC19(up_strong) + ENO1(up_strong), northern_blot,expression
-glucose,FBA1(up_weak) + PFK2(up_medium) + PDC1(up_weak) + ENO1(up_medium) + ENO2(up_medium) + ADH1(up_weak) + CDC19(up_medium) + TPI1(up_weak) + LPD1(down_medium) + PGK1(up_weak) + PGM1(up_medium) + PFK1(up_weak)," lacZ ,  northern_blot",expression
-lactate,PGK1(down_weak) + LPD1(up_medium) + PGM1(down_medium) + ADH1(down_weak) + PDC1(down_weak) + FBA1(down_weak) + ENO1(down_medium) + CDC19(down_medium) + PFK1(down_weak) + ENO2(down_medium) + PFK2(down_medium) + TPI1(down_weak)," lacZ ,  northern_blot",expression
-TYE7(ko) + glucose,PGM1(down_medium) + ENO1(down_medium) + ENO2(down_medium)," northern_blot ,  western_blot",expression

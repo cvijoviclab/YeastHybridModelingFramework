@@ -1,6 +1,0 @@
-input,output,evidence,type
-osmotic_shock + HOG1(ko),CIT1(down_medium) + COX6(down_medium) + SDH2(down_weak), northern_blot,expression
-glucose,CIT1(down_strong) + COX6(down_strong) + SDH2(down_strong), western_blot,expression
-ethanol,COX6(up_strong) + CIT1(up_weak) + SDH2(up_strong), western_blot,expression
-osmotic_shock + SNF1(ko),COX6(down_medium) + CIT1(down_weak) + SDH2(down_medium), northern_blot,expression
-osmotic_shock,COX6(up_strong) + SDH2(up_medium) + CIT1(up_strong)," western_blot ,  prot-act ,  northern_blot",expression
