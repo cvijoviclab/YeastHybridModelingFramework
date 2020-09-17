@@ -1,7 +1,10 @@
 function []=analyzeProteinPrediction2(GeneExpr,prot_ab_resp, prot_ab_ferm,prot_ab_resp_reg, prot_ab_ferm_reg)
 
 %% Load data and index table
-[rellativeAbundance,fermentationDataset1,respirationDataset1]=proteomicsData();
+rellativeAbundance=readtable('../../data/rellativeAbundance.txt');
+fermentationDataset1=readtable('../../data/fermentationDataset1.txt');
+respirationDataset1=readtable('../../data/respirationDataset1.txt');
+
 modelProteomics = GeneExpr(:,[1 3]);
 modelProteomics.indexFermentation = zeros(size(modelProteomics,1),1);
 modelProteomics.indexRespiration = zeros(size(modelProteomics,1),1);
@@ -239,7 +242,7 @@ end
 writetable(fermentation,'../../results/fermentation.txt','Delimiter','\t','QuoteStrings',false,'WriteVariableNames',true);
 
 %% Respiration
-respirationProteomics2=readtable('../../proteomics/proteomics_respiration_sce.txt');
+respirationProteomics2=readtable('../../data/proteomics_respiration_sce.txt');
 respiration=prot_ab_resp(:,1);
 respiration.simulated=table2array(prot_ab_resp(:,2));
 respiration.simulatedR=table2array(prot_ab_resp_reg(:,2));
