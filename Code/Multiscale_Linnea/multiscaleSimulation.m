@@ -15,8 +15,6 @@ load('data/Bool.mat');
 % model = tempModel;
 load('../../models/reduced_ecYeast_fermentation.mat');
 model = ecModel_ferm;
-% Create folder and directery for results
-[path] = createResultsFolder('multiscaleRegulated', yyyymmdd(datetime));
 % Make settings
 %manually change crosstalks (0 turns off, 1 turns on -> in order to work 
 %as described in literature: all crosstalks must be turned on). 
@@ -217,8 +215,8 @@ writetable(Enz_usages,'../../results/enzUsages_reducedYeast.txt','Delimiter','\t
 SSE = mean(SSE);
 disp(['The median error is: ' num2str(SSE)]);
 error = [error;SSE];
-plot_multiscale_results(model_pool,results,data,Drate,signal_idxs,conBool,pathW_protB,path)
-save([path,'settings.mat'],'-struct','settings');
+plot_multiscale_results(model_pool,results,data,Drate,signal_idxs,conBool,pathW_protB)
+save(['../../results/','settings.mat'],'-struct','settings');
 %Analyze results
 cd ../results_analysis
 resultsPath = '../../results';

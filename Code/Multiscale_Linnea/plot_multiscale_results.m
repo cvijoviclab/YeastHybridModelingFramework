@@ -31,7 +31,7 @@ legend(Reactions)
 xlabel('Dilution rate [1/h]','FontSize',18)
 ylabel('Fluxes [mmol/gDw h]','FontSize',18)
 conBool2 = table(Reactions,conBool);
-save([path,'conBool.mat'],'conBool2');
+save(['../../results/','conBool.mat'],'conBool2');
 %Plot protein burden by pathways
 figure()
 for i=1:(length(CC_paths))
