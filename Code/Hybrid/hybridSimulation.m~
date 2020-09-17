@@ -216,15 +216,15 @@ error = [error;SSE];
 plot_multiscale_results(model_pool,results,data,Drate,signal_idxs,conBool,pathW_protB)
 save(['../../results/','settings.mat'],'-struct','settings');
 %Analyze results
-cd ../results_analysis
-resultsPath = '../../results';
+cd results_analysis
+resultsPath = '../../../results';
 enzUsages_analysis(resultsPath)
 analyze_NetFluxes(resultsPath)
 met_turnovers(resultsPath)
-resultsPath = '../../results/ECCs';
+resultsPath = '../../../results/ECCs';
 analyze_ECCs('respiration',resultsPath);
 analyze_ECCs('fermentation',resultsPath);
-cd ../Multiscale_Linnea
+cd ../Hybrid
 %get_met_turnoverTables('fluxDist_reg_reducedYeast.txt','metTurnovers_regulated.txt',)
 %get_met_turnoverTables('fluxDist_reducedYeast.txt','metTurnovers_unregulated.txt')
 analyzeProteinPrediction2(GeneExpr,prot_ab_resp, prot_ab_ferm,prot_ab_resp_reg, prot_ab_ferm_reg);

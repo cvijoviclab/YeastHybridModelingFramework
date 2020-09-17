@@ -1,9 +1,9 @@
 function analyze_ECCs(condition,resultsPath)
 % KEq_table = readtable('../../data/kEqTable.txt','delimiter','\t');
- model = load('../../models/reduced_ecYeast_fermentation.mat');
+ model = load('../../../models/reduced_ecYeast_fermentation.mat');
  model = model.ecModel_ferm;
- ECC_table_reg = readtable(['../../results/ECCs/ECC_glc_' condition '_reg.txt'],'delimiter','\t');
- ECC_table     = readtable(['../../results/ECCs/ECC_glc_' condition '.txt'],'delimiter','\t');
+ ECC_table_reg = readtable(['../../../results/ECCs/ECC_glc_' condition '_reg.txt'],'delimiter','\t');
+ ECC_table     = readtable(['../../../results/ECCs/ECC_glc_' condition '.txt'],'delimiter','\t');
 % fluxTable = readtable('../../results/fluxDist_reducedYeast.txt','delimiter','\t');
 % fluxes = fluxTable.D_1;
 % rxnIDs = KEq_table.rxnID;

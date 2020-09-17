@@ -1,6 +1,6 @@
 function met_turnovers(resultsPath)
 %load model
-model      = open('../../models/ecYeast_CCEM.mat');
+model      = open('../../../models/ecYeast_CCEM.mat');
 model      = model.model;
 %open flux distribution files (regulated)
 fluxTable = readtable([resultsPath '/fluxDist_reg_reducedYeast.txt'],'delimiter','\t');

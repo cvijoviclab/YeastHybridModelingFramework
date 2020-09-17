@@ -1,5 +1,5 @@
 function enzUsages_analysis(resultsPath)
-model = load('../../models/reduced_ecYeast_fermentation.mat');
+model = load('../../../models/reduced_ecYeast_fermentation.mat');
 model = model.ecModel_ferm;
 enzTable = readtable([resultsPath '/enzUsages_reducedYeast.txt'],'delimiter','\t');
 enzTable_reg = readtable([resultsPath '/enzUsages_reg_reducedYeast.txt'],'delimiter','\t');
