@@ -64,3 +64,4 @@ More detailed explanation or comments can be left in the commit description.
 ## Contributors
 * [Ìván Domenzain](https://www.chalmers.se/en/staff/Pages/ivand.aspx) ([@IVANDOMENZAIN](https://github.com/IVANDOMENZAIN)), Chalmers University of Technology, Göteborg, Sweden
 * [Linnea Österberg](https://www.chalmers.se/en/search/Pages/default.aspx?q=linnea+%c3%b6sterberg) ([@linoste](https://github.com/linoste)), Chalmers University of Technology, Göteborg, Sweden
+* Julia Münch
