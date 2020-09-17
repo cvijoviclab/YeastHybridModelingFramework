@@ -22,11 +22,11 @@ function [err_metric,errDist,rCoeff] = computeErrorMetric(data,predictions,cutof
 % 
 % Usage: [err_metric,errDist,rCoeff] = computeErrorMetric(data,predictions,cutoff)
 % 
-% Last modified: Ivan Domenzain 2020/05/22
+% Last modified: Ivan Domenzain 2020/06/29
 %
 
 if nargin<3
-	cutoff = 1E-15;
+	cutoff = 1E-12;
 end
 %In case that vector lengths differ, shorten length to the one of the
 %shortest one.
@@ -43,6 +43,6 @@ relErr     = (predictions./data);
 errDist    = log10(relErr);
 err_metric = mean(abs(errDist));
 %Get pearson correlation coefficient between the two distributions
-rCoeff = corrcoef(predictions,data);
+rCoeff = corrcoef(log10(predictions),log10(data));
 rCoeff = rCoeff(1,2);
 end
