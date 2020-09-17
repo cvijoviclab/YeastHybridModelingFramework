@@ -1,7 +1,0 @@
-Name	pres 0	phos 0	pres 1	phos 1	pres 2	phos 2	pres 3	phos 3	pres 4	phos 4	pres 5	phos 5	pres 6	phos 6	pres 7	phos 7	pres 8	phos 8	pres 9	phos 9	pres 10	phos 10	pres 11	phos 11	pres 12	phos 12	pres 13	phos 13
-PFK2	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1
-TREH	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1
-PK	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1
-FBP1	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1
-ACC	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	1	0	1	0	1	0	1	0	1	0
-HXK2	1	1	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0

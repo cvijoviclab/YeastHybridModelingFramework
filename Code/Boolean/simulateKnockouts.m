@@ -46,7 +46,7 @@ nitr = [1 0]; %sequence of nitrogen concentration
 knockouts = {"WT","Snf1","Reg1"',["Tpk1","Tpk2","Tpk3"], ["Tor1","Tor2"]};
 
 foldername = ['KO_glu', num2str(gluc(2)), 'nit', num2str(nitr(2)), '/'];
-path = ['Data/', foldername];
+path = ['../../results/Boolean/', foldername];
 %path = ['Data/Validation/', foldername]; %for validation knockouts
 
 %manually change crosstalks (0 turns off, 1 turns on -> in order to work as described in literature: all crosstalks must be turned on)
@@ -61,8 +61,6 @@ for i = 1:length(knockouts)
     nitrLevel = nitr(2);
        
     %create folders if they don't already exist
-    mkdir Data
-    mkdir ('Data', 'Validation')
     mkdir(path,[num2str(i),'/'])
     mkdir(path, ['Transitions/',num2str(i),'/'])
     mkdir(path, 'Figures/')

@@ -1,6 +1,0 @@
-Name	presence
-GLUex	0
-ATP	1
-cAMP	1
-F16BP	1
-NH3	0

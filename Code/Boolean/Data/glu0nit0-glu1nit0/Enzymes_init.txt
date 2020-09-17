@@ -1,8 +1,0 @@
-Name	presence	phosphorylation
-PFK2	1	0
-TREH	1	0
-PK	1	0
-FBP1	1	0
-ACC	1	1
-HXK2	1	1
-FBP2	1	0

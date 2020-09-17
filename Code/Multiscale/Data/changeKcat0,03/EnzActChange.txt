@@ -1,8 +1,0 @@
-Var1	activity
-PFK2	-1
-TREH	1
-PK	1
-FBP1	-1
-ACC	1
-HXK2	-1
-FBP2	1

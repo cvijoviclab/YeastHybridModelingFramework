@@ -13,13 +13,13 @@ for i=2:width(TFAct)
     TFAct.(i) = str2double(TFAct{:,i});
 end
 %enzNames = model.enzNames;
-enzNames = table2array(readtable('RequiredDocs/POI.txt', 'ReadVariableNames', false));
+enzNames = table2array(readtable('../../data/POI.txt', 'ReadVariableNames', false));
 rank = zeros(length(enzNames),1);
 rank = table(enzNames, rank);
 var = size(TFAct, 2);
 
 expression = '\,';
-TF = readtable('RequiredDocs/TF-Targets-import.xlsx');
+TF = readtable('../../data/TF-Targets-import.xlsx');
 GisUp = regexp(cell2mat(TF{1,2}), expression, 'split');
 GisDown = regexp(cell2mat(TF{1,3}), expression, 'split');
 Msn2Up = regexp(cell2mat(TF{2,2}), expression, 'split');
