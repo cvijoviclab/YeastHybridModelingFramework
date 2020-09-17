@@ -10,7 +10,7 @@ perturbation = 1+(1E-6);
 %add path to functions
 addpath ('sourceCode');
 %load models
-load('data/Bool.mat');
+load('../../models/Bool.mat');
 %load('data/tempModel.mat')
 % model = tempModel;
 load('../../models/reduced_ecYeast_fermentation.mat');
@@ -25,13 +25,11 @@ settings.knockouts = {''};
 settings.gluc = 0; %initilizing glucose setting
 settings.nitr = [1 1]; %sequence of nitrogen concentration
 % change in Kcat and enzyme usage
-load('data/temporarykcats.mat');
-settings.kcat = kcat; %put in value from the sensitivity analysis
-%settings.enzymeUse = 0.0; %put in value from the analysis
+
 settings.enzymeUse = (0.05); %put in value from the analysis in respiration the fermentation value is changes in "connectBool2FBA"
 [Bool] = knockout(Bool, settings.knockouts);
 % Load experimental data
-fID  = fopen('data/chemostatData.txt');
+fID  = fopen('../../data/chemostatData.txt');
 data = textscan(fID,'%f %f %f %f %f %f %f %f %f %f','Delimiter','\t','HeaderLines',1);
 Drate = data{1};
 qO2   = data{3};

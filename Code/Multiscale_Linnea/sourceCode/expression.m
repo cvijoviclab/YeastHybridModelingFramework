@@ -19,7 +19,7 @@ rank = table(enzNames, rank, enzGenes, pos);
 var = size(TFAct, 2);
 
 expression = '\,';
-TF = readtable('data/TF-Targets-import.xlsx');
+TF = readtable('../../data/TF-Targets-import.xlsx');
 GisUp = regexp(cell2mat(TF{1,2}), expression, 'split');
 GisDown = regexp(cell2mat(TF{1,3}), expression, 'split');
 Msn2Up = regexp(cell2mat(TF{2,2}), expression, 'split');

@@ -37,29 +37,6 @@ for i=1:length(GeneID)
     
 end
 
-%% Make mutants on kcats
-
-GeneID = PTM{(PTM{:,2} ~= 0), 3};
-geneIdx = find(contains(mutantModel.enzGenes, GeneID));
-kcat = [settings.kcat{find(contains(settings.kcat{:,1}, GeneID)),2}];
-
-for i=1:length(GeneID)
-    gene2modIndex   = geneIdx(i);  
-    %Setting enzyme to modify
-    if ~isempty(gene2modIndex)
-        enzyme  =mutantModel.enzymes(gene2modIndex);
-    else
-        enzyme = [];
-    end
-    
-    if ~isempty(enzyme)
-    enzName    = ['prot_' enzyme{1}];
-    enzMetIndx = find(strcmpi(mutantModel.metNames,enzName));
-    enzKcats   = find(mutantModel.S(enzMetIndx,:));
-    enzKcats   = enzKcats(1:end-1);
-    mutantModel.S(enzMetIndx,enzKcats) = cell2mat(kcat(i));
-    end
-end
 
 %% Test
 % sol = solveLP(mutantModel,1);
