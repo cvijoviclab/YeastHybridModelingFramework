@@ -20,7 +20,7 @@ This repository is administered by [@linoste](https://github.com/linoste), Divis
 ## Installation
 
 ### Required software:
-* A functional Matlab installation (MATLAB_2017b or higher).
+* A functional Matlab installation (MATLAB_2019b or higher).
 * [RAVEN Toolbox 2](https://github.com/SysBioChalmers/RAVEN) for MATLAB.
 * libSBML MATLAB API ([version 5.16.0](https://sourceforge.net/projects/sbml/files/libsbml/5.13.0/stable/MATLAB%20interface/)  is recommended).
 * [Gurobi Optimizer for MATLAB](http://www.gurobi.com/registration/download-reg).
