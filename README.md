@@ -29,6 +29,11 @@ This repository is administered by [@linoste](https://github.com/linoste), Divis
 * Clone the [master](https://github.com/cvijoviclab/YeastHybridModelingFramework) branch from [cvijoviclab GitHub](https://github.com/cvijoviclab).
 * Add the directory to your Matlab path, instructions [here](https://se.mathworks.com/help/matlab/ref/addpath.html?requestedDomain=www.mathworks.com).
 
+## Run simulations
+* code/Boolean/main.m - Run the Boolean module
+* code/Boolean/simulateKnockouts.m - Reproduce the knockout simulations in the Boolean model as described in paper.
+* code/Hybrid/hybridSimulation.m - Run the hybrid model. 
+
 ## Development Guidelines
 
 Anybody is welcome to contribute to the development of this modeling and simulation Toolbox, but please abide by the following guidelines.
