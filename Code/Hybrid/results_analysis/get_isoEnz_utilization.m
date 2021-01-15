@@ -64,19 +64,23 @@ for i=1:length(armIds)
     resultsT     = [resultsT;newBlock];
 end
 resultsT.Properties.VariableNames = {'rxn' 'isoenzymes' 'genes' 'ecModel_resp' 'hybrid_resp' 'ecModel_ferm' 'hybrid_ferm' 'protein_resp' 'protein_ferm'};
-%Get confusion matrices
-[sen_ecM_R,spe_ecM_R,pre_ecM_R,acc_ecM_R,MCC_ecM_R] = getConfusionMetrics(resultsT.protein_resp,resultsT.ecModel_resp);
-[sen_ecM_F,spe_ecM_F,pre_ecM_F,acc_ecM_F,MCC_ecM_F] = getConfusionMetrics(resultsT.protein_ferm,resultsT.ecModel_ferm);
-[sen_hyb_R,spe_hyb_R,pre_hyb_R,acc_hyb_R,MCC_hyb_R] = getConfusionMetrics(resultsT.protein_resp,resultsT.hybrid_resp);
-[sen_hyb_F,spe_hyb_F,pre_hyb_F,acc_hyb_F,MCC_hyb_F] = getConfusionMetrics(resultsT.protein_ferm,resultsT.hybrid_ferm);
-%arrange and save results from confusion matrices as tables
-ecM_R = [sen_ecM_R;spe_ecM_R;pre_ecM_R;acc_ecM_R;MCC_ecM_R];
-ecM_F = [sen_ecM_F;spe_ecM_F;pre_ecM_F;acc_ecM_F;MCC_ecM_F];
-hyb_R = [sen_hyb_R;spe_hyb_R;pre_hyb_R;acc_hyb_R;MCC_hyb_R];
-hyb_F = [sen_hyb_F;spe_hyb_F;pre_hyb_F;acc_hyb_F;MCC_hyb_F];
+%Get confusion matrices and associated metrics
+[confMat_ecM_R,ecM_R] = getConfusionMetrics(resultsT.protein_resp,resultsT.ecModel_resp);
+[confMat_ecM_F,ecM_F] = getConfusionMetrics(resultsT.protein_ferm,resultsT.ecModel_ferm);
+[confMat_hyb_R,hyb_R] = getConfusionMetrics(resultsT.protein_resp,resultsT.hybrid_resp);
+[confMat_hyb_F,hyb_F] = getConfusionMetrics(resultsT.protein_ferm,resultsT.hybrid_ferm);
+%save confusion matrices file
+confMat = [confMat_ecM_R,confMat_hyb_R,confMat_ecM_F,confMat_hyb_F];
+confMat = num2cell(confMat);
+confMat = cell2table(confMat);
+confMat.Properties.VariableNames = {'obs_T_ecM_R' 'obs_F_ecM_R' 'obs_T_hyb_R' 'obs_F_hyb_R' ...
+                                    'obs_T_ecM_F' 'obs_F_ecM_F' 'obs_T_hyb_F' 'obs_F_hyb_F'};
+confMat.Properties.RowNames = {'predictions_true' 'predictions_false'};  
+writetable(confMat,'../../../results/isoenzymes_confusionMatrix.txt','delimiter','\t','QuoteStrings',false,'WriteRowNames',true,'WriteVariableNames',true);
+
+%arrange and save results from confusion metrics as tables
 summ_Table = table(ecM_R,hyb_R,ecM_F,hyb_F);
-summ_Table.Properties.RowNames      = {'sensitivity' 'specificity' 'precision' 'accuracy' 'MCC'};
-summ_Table.Properties.VariableNames = {'ecM_R' 'hyb_R' 'ecM_F' 'hyb_F'};
+summ_Table.Properties.RowNames      = {'sensitivity' 'specificity' 'precision' 'accuracy' 'F1_score' 'MCC' 'FMI' 'informedness' 'markedness'};
 writetable(summ_Table,'../../../results/isoenzymes_utilization_summary.txt','delimiter','\t','QuoteStrings',false,'WriteRowNames',true,'WriteVariableNames',true);
 %save overall results for isoenzymes_utilization as .txt file
 resultsT = resultsT(:,[1 2 3 8 4 5 9 6 7]);
