@@ -1,5 +1,11 @@
 function []=analyze_CLSTargets()
 
+%Data downloaded from ﻿﻿Wierman, M. B., Matecic, M., Valsakumar, V., Li,
+%M., Smith, D. L., Bekiranov, S., & Smith, J. S. (2015). Functional 
+%genomic analysis reveals overlapping and distinct features of 
+%chronologically long-lived yeast populations. Aging, 7(3), 177–194. 
+%https://doi.org/10.18632/aging.100729.
+
 CLS_target1=readtable('../../data/aging-07-0177-s001.xlsx','Range','3:217');
 CLS_target2=readtable('../../data/aging-07-0177-s002.xlsx','Range','3:341');
 enzyme_usageMutant=readtable('../../results/enzUsages_mutants.xlsx');
