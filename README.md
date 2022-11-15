@@ -2,7 +2,7 @@
 
 Integration of a Boolean nutrient signaling network with an enzyme-constrained model of *S. cerevisiae*'s metabolism.
 
-This repository contains all the necessary data, model files and scripts for reproducing the results on the publication **"A novel yeast hybrid modeling framework integrating Boolean and enzyme-constrained networks enables exploration of the interplay between signaling and metabolism"** available at [bioRxiv](https://www.biorxiv.org/content/10.1101/2020.09.11.290817v1).
+This repository contains all the necessary data, model files and scripts for reproducing the results on the publication L. Österberg, I. Domenzain, J.Münch, J.Nielsen, S. Hohmann, M. Cvijovic A novel yeast hybrid modeling framework integrating Boolean and enzyme-constrained networks enables exploration of the interplay between signaling and metabolism (2021) PLoS Comput Biol 17(4): e1008891. https://doi.org/10.1371/journal.pcbi.1008891
 
 - Abstract
 
